@@ -1,0 +1,3 @@
+let main = do
+    import "io"
+    print "Hello world"

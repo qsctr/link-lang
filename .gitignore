@@ -1,0 +1,5 @@
+src/*.hi
+src/*.o
+src/*.exe
+src/stdlib/node_modules
+examples/*.js

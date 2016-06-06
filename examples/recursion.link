@@ -1,0 +1,10 @@
+let main = do
+    import "io" "comparison" "math"
+    f 5
+    print "done"
+
+let f x = test
+    > $x 0 -> do
+        print $x
+        f (- $x 1)
+    else -> print "ended"

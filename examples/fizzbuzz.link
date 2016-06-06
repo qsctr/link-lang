@@ -1,0 +1,15 @@
+let main = do
+    import "lists" "more-lists" "io" "booleans" "more-math"
+    map
+        range 1 100
+        @fizzbuzz
+scoped
+    let fizzbuzz n = print
+        test
+            & d3 d5 -> "FizzBuzz"
+            d3 -> "Fizz"
+            d5 -> "Buzz"
+            else -> $n
+    scoped
+        let d3 = isDivBy $n 3
+        let d5 = isDivBy $n 5
